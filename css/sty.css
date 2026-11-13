@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+}
+
+.pai{
+    display: flex;
+}
+
+.meio{
+    width: 50%;
+    height: 100vh;
+    background-image: url(/img/mcqueen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(190, 6, 6);
+
+        .mae{
+            max-width: 5000px;
+            display: flex;
+            padding: 100px 0px 600px 250px;
+            margin: 100px 20px 0px 20px ;
+                .container{
+                    padding: 0px 20px 0px 20px;
+                    height: 40px;
+                    font-family: 'roboto', sans-serif;
+                    text-align: center;
+                    font-size: 30px;
+                        img{
+                            height: 400px;
+                        }
+
+                }
+        }
+}
+
+.metade{
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+        header{
+            display: flex;
+                img{
+                    width: 100px;
+                    height: 80px;
+                    padding: 80px 40px 20px 0px;
+                }
+                    h1{
+                    padding: 30px 0px 50px 20px;
+                    font-size: 70px;
+                    font-family:  'Anton', sans-serif;
+                }
+            }
+                    h3{
+                        color: rgb(199, 189, 134);
+                        font-family: 'Poppins', sans-serif; 
+                        font-size: 35px;
+                        padding: 20px;
+                    }
+}
